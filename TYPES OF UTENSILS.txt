@@ -1,0 +1,90 @@
+‎Types of utensils
+Here’s a categorized list of *kitchen utensils* along with their *usage*, ideal for organizing products in your utensils store’s website:
+---
+## 🍳 1. *Cookware*
+Utensils used for cooking food on a stove or in an oven.
+| *Utensil*              | *Usage*                                          |
+| ------------------------ | -------------------------------------------------- |
+| Frying Pan / Skillet     | Frying, sautéing, browning                         |
+| Saucepan                 | Boiling, simmering sauces or soups                 |
+| Stock Pot                | Cooking large quantities of soups, stews, or pasta |
+| Saute Pan                | High-heat searing, sautéing vegetables             |
+| Pressure Cooker          | Fast cooking of grains, lentils, meat              |
+| Non-stick Tawa / Griddle | Making flatbreads (roti), pancakes, etc.           |
+| Casserole Dish           | Baking or slow cooking dishes in the oven          |
+| Wok                      | Stir-frying (especially Asian cuisine)             |
+---
+## 🍰 2. *Bakeware*
+Tools used for baking in the oven.
+| *Utensil*          | *Usage*                           |
+| -------------------- | ----------------------------------- |
+| Baking Tray          | Baking cookies, roasting vegetables |
+| Muffin Tin           | Baking cupcakes, muffins            |
+| Loaf Pan             | Baking bread, cakes                 |
+| Cake Tin / Cake Mold | Baking cakes                        |
+| Pie Dish             | Making pies and tarts               |
+| Cooling Rack         | Letting baked goods cool evenly     |
+---
+## 🔪 3. *Cutlery*
+Utensils used for cutting and eating food.
+| *Utensil*           | *Usage*                         |
+| --------------------- | --------------------------------- |
+| Chef’s Knife          | All-purpose cutting, chopping     |
+| Paring Knife          | Peeling, small cuts               |
+| Bread Knife           | Slicing bread without crushing it |
+| Steak Knife           | Cutting meat                      |
+| Butter Knife          | Spreading butter or spreads       |
+| Fork                  | Eating solid food                 |
+| Spoon                 | Eating liquid or semi-liquid food |
+| Teaspoon / Tablespoon | Measuring, eating desserts        |
+---
+## 🥄 4. *Kitchen Tools / Hand Utensils*
+Everyday tools for preparing, handling, and serving food.
+| *Utensil*                 | *Usage*                               |
+| --------------------------- | --------------------------------------- |
+| Spatula (silicone or steel) | Flipping, scraping, mixing              |
+| Ladle                       | Serving soups, stews, sauces            |
+| Slotted Spoon               | Lifting food from liquid while draining |
+| Tongs                       | Grabbing or flipping food               |
+| Whisk                       | Mixing, beating eggs or batter          |
+| Peeler                      | Removing skin from vegetables/fruits    |
+| Grater                      | Grating cheese, vegetables, spices      |
+| Masher                      | Mashing potatoes or soft vegetables     |
+| Colander                    | Draining pasta, washing veggies         |
+| Sieve / Strainer            | Straining liquids or dry ingredients    |
+| Rolling Pin                 | Rolling dough for baking                |
+| Garlic Press                | Crushing garlic cloves                  |
+| Measuring Cups / Spoons     | Accurate ingredient measurement         |
+| Mixing Bowls                | Mixing ingredients or prepping food     |
+| Basting Brush               | Applying sauces or butter               |
+| Can Opener                  | Opening tin cans                        |
+| Bottle Opener               | Opening bottles with caps               |
+| Mortar and Pestle           | Grinding spices or herbs                |
+---
+## 🍽 5. *Serving Utensils*
+Used to serve food at the table.
+| *Utensil*   | *Usage*                            |
+| ------------- | ------------------------------------ |
+| Serving Spoon | Serving rice, curries, or vegetables |
+| Soup Ladle    | Serving soups                        |
+| Cake Server   | Slicing and serving cake or pie      |
+| Salad Tongs   | Serving salad                        |
+| Sugar Tongs   | Picking up sugar cubes               |
+| Rice Paddle   | Scooping rice without sticking       |
+---
+## 🧊 6. *Specialty Utensils*
+Niche tools for specific tasks or cuisines.
+| *Utensil*        | *Usage*                          |
+| ------------------ | ---------------------------------- |
+| Pizza Cutter       | Cutting pizza easily               |
+| Egg Separator      | Separating egg whites from yolks   |
+| Apple Corer        | Removing apple cores               |
+| Zester             | Extracting citrus zest             |
+| Pasta Fork         | Lifting pasta                      |
+| Food Thermometer   | Checking internal food temperature |
+| Ice Cream Scoop    | Scooping ice cream or batter       |
+| Melon Baller       | Shaping fruit into balls           |
+| Dumpling Maker     | Forming uniform dumplings          |
+| Idli Stand (India) | Making steamed idlis               |
+| Chapati Press      | Flattening dough for Indian bread  |
+---
