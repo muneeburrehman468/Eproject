@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Kitchen Essentials — Full Utensils Catalog</title>
+<meta name="description" content="Complete catalog of kitchen utensils (Cookware, Bakeware, Cutlery, Tools, Serving, Specialty). Photos loaded from Unsplash by keyword." />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #f0fcfb;
+    --teal-600:#00bfa6;
+    --teal-700:#00a592;
+    --card:#ffffff;
+    --muted:#556b72;
+    --maxw:1200px;
+    font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(180deg,#f7fffe 0%,var(--bg)100%);color:#022; padding:28px}
+  .site{max-width:var(--maxw);margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:18px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{width:54px;height:54px;border-radius:12px;background:linear-gradient(135deg,var(--teal-600),var(--teal-700));display:grid;place-items:center;color:white;font-weight:800;font-size:20px}
+  .title{font-size:20px;font-weight:700}
+  .subtitle{color:var(--muted);font-size:13px}
+  .hero{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 10px 30px rgba(3,32,38,0.06);margin-bottom:20px}
+  .hero h1{margin:0;font-size:22px}
+  .hero p{margin:8px 0 0;color:var(--muted)}
+  .category{margin-top:28px}
+  .category-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;gap:10px}
+  .category-header h2{margin:0;font-size:18px;display:flex;align-items:center;gap:10px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+  .card{background:var(--card);border-radius:12px;padding:12px;text-align:center;box-shadow:0 8px 28px rgba(3,32,38,0.04);display:flex;flex-direction:column;gap:10px;min-height:240px;transition:transform .18s,box-shadow .18s}
+  .card:hover{transform:translateY(-6px);box-shadow:0 18px 48px rgba(3,32,38,0.08)}
+  .thumb{width:112px;height:112px;border-radius:12px;margin:6px auto 2px;overflow:hidden;background:#f7fbfa;display:grid;place-items:center;border:1px solid rgba(3,32,38,0.03)}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .name{font-weight:700;font-size:15px}
+  .usage{color:var(--muted);font-size:13px;flex:1}
+  .actions{display:flex;gap:8px;justify-content:center;align-items:center;margin-top:6px}
+  .btn{background:var(--teal-600);color:white;border:0;padding:9px 12px;border-radius:9px;font-weight:700;cursor:pointer;box-shadow:0 8px 20px rgba(0,191,166,0.12)}
+  footer{margin-top:34px;text-align:center;color:var(--muted);font-size:13px;padding-bottom:12px}
+  @media (max-width:820px){.card{min-height:220px}.thumb{width:100px;height:100px}}
+  @media (max-width:520px){body{padding:16px}.logo{width:44px;height:44px}}
+</style>
+</head>
+<body>
+  <div class="site">
+    <header>
+      <div class="brand" aria-hidden="false">
+        <div class="logo" aria-hidden="true">KE</div>
+        <div>
+          <div class="title">Kitchen Essentials</div>
+          <div class="subtitle">Complete utensils catalog — teal theme • real photos</div>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div style="font-weight:700;color:var(--muted)">Catalog</div>
+        <div style="font-size:12px;color:var(--muted)">All items included — photos via Unsplash keyword source</div>
+      </div>
+    </header>
+
+    <section class="hero" aria-labelledby="page-heading">
+      <h1 id="page-heading">Full Utensils Catalog — All Categories Included</h1>
+      <p>This page contains every utensil from Cookware, Bakeware, Cutlery, Kitchen Tools, Serving Utensils and Specialty Utensils. Photos are pulled dynamically from Unsplash by keyword.</p>
+    </section>
+
+    <!-- ---------- 1. Cookware (8) ---------- -->
+    <section class="category" id="cookware" aria-labelledby="cookware-heading">
+      <div class="category-header">
+        <h2 id="cookware-heading">🍳 Cookware</h2>
+        <div class="subtitle">8 items</div>
+      </div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?frying%20pan,skillet" alt="Frying Pan"></div><div class="name">Frying Pan / Skillet</div><div class="usage">Frying, sautéing, browning</div><div class="actions"><button class="btn" onclick="shop('Frying Pan / Skillet')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?saucepan,pot" alt="Saucepan"></div><div class="name">Saucepan</div><div class="usage">Boiling, simmering sauces or soups</div><div class="actions"><button class="btn" onclick="shop('Saucepan')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?stock%20pot,soup%20pot" alt="Stock Pot"></div><div class="name">Stock Pot</div><div class="usage">Cooking large quantities of soups, stews, or pasta</div><div class="actions"><button class="btn" onclick="shop('Stock Pot')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?saute%20pan,pan" alt="Saute Pan"></div><div class="name">Saute Pan</div><div class="usage">High-heat searing, sautéing vegetables</div><div class="actions"><button class="btn" onclick="shop('Saute Pan')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?pressure%20cooker,instant%20pot" alt="Pressure Cooker"></div><div class="name">Pressure Cooker</div><div class="usage">Fast cooking of grains, lentils, meat</div><div class="actions"><button class="btn" onclick="shop('Pressure Cooker')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?griddle,tawa,flatbread" alt="Tawa / Griddle"></div><div class="name">Non-stick Tawa / Griddle</div><div class="usage">Making flatbreads (roti), pancakes, etc.</div><div class="actions"><button class="btn" onclick="shop('Non-stick Tawa / Griddle')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?casserole,oven,dish" alt="Casserole Dish"></div><div class="name">Casserole Dish</div><div class="usage">Baking or slow cooking dishes in the oven</div><div class="actions"><button class="btn" onclick="shop('Casserole Dish')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?wok,stir%20fry" alt="Wok"></div><div class="name">Wok</div><div class="usage">Stir-frying (especially Asian cuisine)</div><div class="actions"><button class="btn" onclick="shop('Wok')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <!-- ---------- 2. Bakeware (6) ---------- -->
+    <section class="category" id="bakeware" aria-labelledby="bakeware-heading">
+      <div class="category-header">
+        <h2 id="bakeware-heading">🍰 Bakeware</h2>
+        <div class="subtitle">6 items</div>
+      </div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?baking%20tray,cookies" alt="Baking Tray"></div><div class="name">Baking Tray</div><div class="usage">Baking cookies, roasting vegetables</div><div class="actions"><button class="btn" onclick="shop('Baking Tray')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?muffin%20tin,cupcakes" alt="Muffin Tin"></div><div class="name">Muffin Tin</div><div class="usage">Baking cupcakes, muffins</div><div class="actions"><button class="btn" onclick="shop('Muffin Tin')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?loaf%20pan,bread" alt="Loaf Pan"></div><div class="name">Loaf Pan</div><div class="usage">Baking bread, cakes</div><div class="actions"><button class="btn" onclick="shop('Loaf Pan')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?cake%20mold,cake" alt="Cake Tin"></div><div class="name">Cake Tin / Cake Mold</div><div class="usage">Baking cakes</div><div class="actions"><button class="btn" onclick="shop('Cake Tin / Cake Mold')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?pie%20dish,pie" alt="Pie Dish"></div><div class="name">Pie Dish</div><div class="usage">Making pies and tarts</div><div class="actions"><button class="btn" onclick="shop('Pie Dish')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?cooling%20rack,baked%20goods" alt="Cooling Rack"></div><div class="name">Cooling Rack</div><div class="usage">Letting baked goods cool evenly</div><div class="actions"><button class="btn" onclick="shop('Cooling Rack')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <!-- ---------- 3. Cutlery (8) ---------- -->
+    <section class="category" id="cutlery" aria-labelledby="cutlery-heading">
+      <div class="category-header">
+        <h2 id="cutlery-heading">🔪 Cutlery</h2>
+        <div class="subtitle">8 items</div>
+      </div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?chef%20knife,kitchen%20knife" alt="Chef's Knife"></div><div class="name">Chef’s Knife</div><div class="usage">All-purpose cutting, chopping</div><div class="actions"><button class="btn" onclick="shop('Chef’s Knife')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?paring%20knife,small%20knife" alt="Paring Knife"></div><div class="name">Paring Knife</div><div class="usage">Peeling, small cuts</div><div class="actions"><button class="btn" onclick="shop('Paring Knife')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?bread%20knife,slicing%20bread" alt="Bread Knife"></div><div class="name">Bread Knife</div><div class="usage">Slicing bread without crushing it</div><div class="actions"><button class="btn" onclick="shop('Bread Knife')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?steak%20knife,knife" alt="Steak Knife"></div><div class="name">Steak Knife</div><div class="usage">Cutting meat</div><div class="actions"><button class="btn" onclick="shop('Steak Knife')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?butter%20knife,spreader" alt="Butter Knife"></div><div class="name">Butter Knife</div><div class="usage">Spreading butter or spreads</div><div class="actions"><button class="btn" onclick="shop('Butter Knife')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?fork,cutlery" alt="Fork"></div><div class="name">Fork</div><div class="usage">Eating solid food</div><div class="actions"><button class="btn" onclick="shop('Fork')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?spoon,cutlery" alt="Spoon"></div><div class="name">Spoon</div><div class="usage">Eating liquid or semi-liquid food</div><div class="actions"><button class="btn" onclick="shop('Spoon')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?measuring%20spoon,spoon" alt="Measuring Spoons"></div><div class="name">Teaspoon / Tablespoon</div><div class="usage">Measuring, eating desserts</div><div class="actions"><button class="btn" onclick="shop('Teaspoon / Tablespoon')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <!-- ---------- 4. Kitchen Tools / Hand Utensils (16) ---------- -->
+    <section class="category" id="tools" aria-labelledby="tools-heading">
+      <div class="category-header">
+        <h2 id="tools-heading">🥄 Kitchen Tools & Hand Utensils</h2>
+        <div class="subtitle">16 items</div>
+      </div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?spatula,kitchen%20utensil" alt="Spatula"></div><div class="name">Spatula (silicone or steel)</div><div class="usage">Flipping, scraping, mixing</div><div class="actions"><button class="btn" onclick="shop('Spatula (silicone or steel)')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?ladle,soup" alt="Ladle"></div><div class="name">Ladle</div><div class="usage">Serving soups, stews, sauces</div><div class="actions"><button class="btn" onclick="shop('Ladle')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?slotted%20spoon,kitchen" alt="Slotted Spoon"></div><div class="name">Slotted Spoon</div><div class="usage">Lifting food from liquid while draining</div><div class="actions"><button class="btn" onclick="shop('Slotted Spoon')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?tongs,grill" alt="Tongs"></div><div class="name">Tongs</div><div class="usage">Grabbing or flipping food</div><div class="actions"><button class="btn" onclick="shop('Tongs')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?whisk,batter" alt="Whisk"></div><div class="name">Whisk</div><div class="usage">Mixing, beating eggs or batter</div><div class="actions"><button class="btn" onclick="shop('Whisk')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?peeler,vegetable" alt="Peeler"></div><div class="name">Peeler</div><div class="usage">Removing skin from vegetables/fruits</div><div class="actions"><button class="btn" onclick="shop('Peeler')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?grater,cheese" alt="Grater"></div><div class="name">Grater</div><div class="usage">Grating cheese, vegetables, spices</div><div class="actions"><button class="btn" onclick="shop('Grater')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?masher,potato" alt="Masher"></div><div class="name">Masher</div><div class="usage">Mashing potatoes or soft vegetables</div><div class="actions"><button class="btn" onclick="shop('Masher')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?colander,drain%20pasta" alt="Colander"></div><div class="name">Colander</div><div class="usage">Draining pasta, washing veggies</div><div class="actions"><button class="btn" onclick="shop('Colander')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?sieve,strainer" alt="Sieve"></div><div class="name">Sieve / Strainer</div><div class="usage">Straining liquids or dry ingredients</div><div class="actions"><button class="btn" onclick="shop('Sieve / Strainer')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?rolling%20pin,dough" alt="Rolling Pin"></div><div class="name">Rolling Pin</div><div class="usage">Rolling dough for baking</div><div class="actions"><button class="btn" onclick="shop('Rolling Pin')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?garlic%20press,garlic" alt="Garlic Press"></div><div class="name">Garlic Press</div><div class="usage">Crushing garlic cloves</div><div class="actions"><button class="btn" onclick="shop('Garlic Press')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?measuring%20cups,measuring%20spoons" alt="Measuring Cups"></div><div class="name">Measuring Cups / Spoons</div><div class="usage">Accurate ingredient measurement</div><div class="actions"><button class="btn" onclick="shop('Measuring Cups / Spoons')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?mixing%20bowls,bowl" alt="Mixing Bowls"></div><div class="name">Mixing Bowls</div><div class="usage">Mixing ingredients or prepping food</div><div class="actions"><button class="btn" onclick="shop('Mixing Bowls')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?basting%20brush,brush" alt="Basting Brush"></div><div class="name">Basting Brush</div><div class="usage">Applying sauces or butter</div><div class="actions"><button class="btn" onclick="shop('Basting Brush')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?can%20opener,cans" alt="Can Opener"></div><div class="name">Can Opener</div><div class="usage">Opening tin cans</div><div class="actions"><button class="btn" onclick="shop('Can Opener')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?bottle%20opener,opener" alt="Bottle Opener"></div><div class="name">Bottle Opener</div><div class="usage">Opening bottles with caps</div><div class="actions"><button class="btn" onclick="shop('Bottle Opener')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <!-- ---------- 5. Serving Utensils (6) ---------- -->
+    <section class="category" id="serving" aria-labelledby="serving-heading">
+      <div class="category-header"><h2 id="serving-heading">🍽 Serving Utensils</h2><div class="subtitle">6 items</div></div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?serving%20spoon,kitchen" alt="Serving Spoon"></div><div class="name">Serving Spoon</div><div class="usage">Serving rice, curries, or vegetables</div><div class="actions"><button class="btn" onclick="shop('Serving Spoon')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?soup%20ladle,ladle" alt="Soup Ladle"></div><div class="name">Soup Ladle</div><div class="usage">Serving soups</div><div class="actions"><button class="btn" onclick="shop('Soup Ladle')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?cake%20server,server" alt="Cake Server"></div><div class="name">Cake Server</div><div class="usage">Slicing and serving cake or pie</div><div class="actions"><button class="btn" onclick="shop('Cake Server')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?salad%20tongs,salad" alt="Salad Tongs"></div><div class="name">Salad Tongs</div><div class="usage">Serving salad</div><div class="actions"><button class="btn" onclick="shop('Salad Tongs')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?sugar%20tongs,tea" alt="Sugar Tongs"></div><div class="name">Sugar Tongs</div><div class="usage">Picking up sugar cubes</div><div class="actions"><button class="btn" onclick="shop('Sugar Tongs')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?rice%20paddle,rice" alt="Rice Paddle"></div><div class="name">Rice Paddle</div><div class="usage">Scooping rice without sticking</div><div class="actions"><button class="btn" onclick="shop('Rice Paddle')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <!-- ---------- 6. Specialty Utensils (11) ---------- -->
+    <section class="category" id="specialty" aria-labelledby="specialty-heading">
+      <div class="category-header"><h2 id="specialty-heading">🧊 Specialty Utensils</h2><div class="subtitle">11 items</div></div>
+      <div class="grid" role="list">
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?pizza%20cutter,pizza" alt="Pizza Cutter"></div><div class="name">Pizza Cutter</div><div class="usage">Cutting pizza easily</div><div class="actions"><button class="btn" onclick="shop('Pizza Cutter')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?egg%20separator,eggs" alt="Egg Separator"></div><div class="name">Egg Separator</div><div class="usage">Separating egg whites from yolks</div><div class="actions"><button class="btn" onclick="shop('Egg Separator')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?apple%20corer,apple" alt="Apple Corer"></div><div class="name">Apple Corer</div><div class="usage">Removing apple cores</div><div class="actions"><button class="btn" onclick="shop('Apple Corer')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?zester,citrus" alt="Zester"></div><div class="name">Zester</div><div class="usage">Extracting citrus zest</div><div class="actions"><button class="btn" onclick="shop('Zester')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?pasta%20fork,pasta" alt="Pasta Fork"></div><div class="name">Pasta Fork</div><div class="usage">Lifting pasta</div><div class="actions"><button class="btn" onclick="shop('Pasta Fork')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?food%20thermometer,thermometer" alt="Food Thermometer"></div><div class="name">Food Thermometer</div><div class="usage">Checking internal food temperature</div><div class="actions"><button class="btn" onclick="shop('Food Thermometer')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?ice%20cream%20scoop,ice%20cream" alt="Ice Cream Scoop"></div><div class="name">Ice Cream Scoop</div><div class="usage">Scooping ice cream or batter</div><div class="actions"><button class="btn" onclick="shop('Ice Cream Scoop')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?melon%20baller,fruit" alt="Melon Baller"></div><div class="name">Melon Baller</div><div class="usage">Shaping fruit into balls</div><div class="actions"><button class="btn" onclick="shop('Melon Baller')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?dumpling%20maker,dumplings" alt="Dumpling Maker"></div><div class="name">Dumpling Maker</div><div class="usage">Forming uniform dumplings</div><div class="actions"><button class="btn" onclick="shop('Dumpling Maker')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?idli%20stand,idli" alt="Idli Stand"></div><div class="name">Idli Stand (India)</div><div class="usage">Making steamed idlis</div><div class="actions"><button class="btn" onclick="shop('Idli Stand (India)')">Shop Now</button></div></article>
+
+        <article class="card"><div class="thumb"><img data-src="https://source.unsplash.com/600x600/?chapati%20press,roti" alt="Chapati Press"></div><div class="name">Chapati Press</div><div class="usage">Flattening dough for Indian bread</div><div class="actions"><button class="btn" onclick="shop('Chapati Press')">Shop Now</button></div></article>
+      </div>
+    </section>
+
+    <footer>© 2025 Kitchen Essentials • Photos from Unsplash (loaded dynamically)</footer>
+  </div>
+
+<script>
+/* Assign Unsplash image URLs (data-src -> src). Adds a small cache-bypass param to reduce repeat identical images. */
+(function loadPhotos(){
+  document.querySelectorAll('img[data-src]').forEach(img=>{
+    const src = img.getAttribute('data-src');
+    img.src = src + (src.includes('?') ? '&' : '?') + 'v=' + Date.now()%100000;
+    img.removeAttribute('data-src');
+    img.onerror = function(){ this.onerror=null; this.src='https://via.placeholder.com/600x600?text=No+Image'; };
+  });
+})();
+
+/* Shop preview demo */
+function shop(name){
+  try {
+    const list = JSON.parse(sessionStorage.getItem('ke_preview')||'[]');
+    list.push({name, at:new Date().toISOString()});
+    sessionStorage.setItem('ke_preview', JSON.stringify(list));
+  } catch(e){}
+  const t=document.createElement('div');
+  t.textContent = name + ' — added to preview';
+  Object.assign(t.style,{position:'fixed',right:'18px',bottom:'18px',background:'rgba(3,32,38,0.94)',color:'#fff',padding:'10px 14px',borderRadius:'10px',zIndex:99999,boxShadow:'0 10px 30px rgba(3,32,38,0.2)'});
+  document.body.appendChild(t);
+  setTimeout(()=> t.style.opacity='0',1600);
+  setTimeout(()=> document.body.removeChild(t),2100);
+}
+</script>
+</body>
+</html>
