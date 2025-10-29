@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kitchen Utensils - Royal Blue & White Theme</title>
+    <title>SHINE </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -13,83 +13,293 @@
 
     <style>
         body {
-            background-color: #f5f8ff;
-            /* light blue-white */
-            color: #0d1b4c;
-            /* deep navy for readability */
-            font-family: 'Segoe UI', sans-serif;
-        }
+  background-color: #98FB98; /* pale green */
+  color: #0a3b13;
+  font-family: Arial, sans-serif;
+}
 
-        .container50 {
-            margin: 20px;
-        }
+.col50 {
+  background-color: #ffffff; /* white cards */
+  border: 2px solid #32CD32; /* lime border */
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(50,205,50,0.1);
+  transition: 0.3s;
+}
 
-        .col50 {
-            border: 2px solid #0d47a1;
-            /* royal blue border */
-            background: linear-gradient(to bottom right, #ffffff, #e3f2fd);
-            border-radius: 10px;
-            margin: 10px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
+.col50:hover {
+  box-shadow: 0 6px 15px rgba(50,205,50,0.2);
+  transform: translateY(-5px);
+}
 
-        .col50:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(13, 71, 161, 0.3);
-        }
+h4 {
+  color: #0a3b13;
+}
 
-        .img50 {
-            width: 230px;
-            height: 190px;
-            object-fit: cover;
-            margin-top: 15px;
-            border-radius: 10px;
-            background-color: #ffffff;
-        }
+p {
+  color: #3c5735;
+}
 
-        h4 {
-            color: #0d1b4c;
-            margin-top: 10px;
-        }
+.img50 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 10px 0;
+}
 
-        p {
-            color: #1a237e;
-            font-size: 14px;
-            margin: 10px;
-        }
+.btn-primary {
+  background-color: #32CD32; /* lime green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-        .btn50.btn-primary {
-            background-color: #1565c0;
-            border: none;
-            color: #fff;
-            transition: background-color 0.2s ease;
-        }
+.btn-primary:hover {
+  background-color: #28b428; /* darker lime */
+}
 
-        .btn50.btn-primary:hover {
-            background-color: #0d47a1;
-        }
+.btn-warning {
+  background-color: white;
+  border: 2px solid #32CD32;
+  color: #32CD32;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-        .btn.btn-warning {
-            background-color: #e3f2fd;
-            border: 1px solid #0d47a1;
-            color: #0d47a1;
-            transition: background-color 0.2s ease;
-        }
+.btn-warning:hover {
+  background-color: #f0fff0;
+}
 
-        .btn.btn-warning:hover {
-            background-color: #bbdefb;
-            color: #0d1b4c;
-        }
 
-        .row50 {
-            margin-top: 15px;
-        }
+/* Carousel container */
+.carousel {
+  width: 90%;
+  max-width: 800px;
+  height: 553px;
+  margin: 30px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 3px solid #32CD32; /* lime green border */
+  box-shadow: 0 8px 20px rgba(50,205,50,0.25);
+  position: relative;
+  z-index: -10;
+}
+
+/* Slide wrapper */
+.slides {
+  display: flex;
+  width: 100%; /* 4 slides */
+  height: 100%;
+  animation: slide 16s infinite;
+  transition: transform 0.5s ease;
+}
+
+/* Each slide */
+.slide {
+  width: 100%;
+  flex-shrink: 0;
+  height: 100%;
+}
+
+/* Images */
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #f0fff0; /* pale placeholder background */
+}
+
+/* Animation keyframes */
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(0); }
+
+  25%  { transform: translateX(-100%); }
+  45%  { transform: translateX(-100%); }
+
+  50%  { transform: translateX(-200%); }
+  70%  { transform: translateX(-200%); }
+
+  75%  { transform: translateX(-300%); }
+  95%  { transform: translateX(-300%); }
+
+  100% { transform: translateX(0); }
+}
+
+/* Pause on hover */
+.carousel:hover .slides {
+  animation-play-state: paused;
+}
+
+
+
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ced44f;
+  color: #222;
+}
+
+/* Header and logo */
+header {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #f4c542;
+  z-index: +100;
+}
+
+.logo span {
+  background-color: #f4c542;
+  color: #111;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1565958011705-44e2119e3b8e?auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hero-content {
+  margin-top: 60px; /* space for fixed header */
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+.hero h1 {
+  color: #f4c542;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+.hero .highlight {
+  color: #f4c542;
+  font-weight: bold;
+}
+
+.hero button {
+  margin-top: 15px;
+  background-color: #f4c542;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+  .hero p {
+    font-size: 14px;
+  }
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+}
     </style>
 </head>
 
 <body>
+
+  <!-- Header with logo -->
+  <header>
+    <div class="logo">
+      <span>TSU</span> THE SHINE UTENSILS
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>THE SHINE UTENSILS</h1>
+      <p>
+        Established on <span class="highlight">12th March 2008</span>, THE SHINE UTENSILS began as a small family-run store 
+        dedicated to providing premium-quality kitchen essentials. Over the years, our commitment to 
+        excellence has helped us expand to <span class="highlight">12 branches across Pakistan</span>.
+      </p>
+      <p>
+        Our products range from stainless steel cookware and non-stick pans to elegant serving sets — 
+        each crafted to bring durability and shine to your kitchen. 
+      </p>
+      <p>
+        In <span class="highlight">2015</span>, we proudly launched our first outlet in Lahore, followed by branches in 
+        Karachi, Islamabad, Faisalabad, and beyond. 
+        By <span class="highlight">2022</span>, our online presence allowed us to reach even the most remote regions, 
+        ensuring quality utensils for every home.
+      </p>
+      <p>
+        Our mission remains simple: <em>to deliver quality, variety, and trust — straight to your kitchen.</em>
+      </p>
+      <button class="btn btn-warning"><a href="#cont50">Explore Our Collection</a></button>
+    </div>
+  </section>
+
+    <div class="carousel">
+  <div class="slides">
+    <div class="slide"><img src="https://images.pexels.com/photos/3952043/pexels-photo-3952043.jpeg" alt="Utensil Image 1"></div>
+    <div class="slide"><img src="https://images.unsplash.com/photo-1518291344630-4857135fb581?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1469" alt="Utensil Image 2"></div>
+    <div class="slide"><img src="https://images.pexels.com/photos/6996074/pexels-photo-6996074.jpeg" alt="Utensil Image 3"></div>
+    <div class="slide"><img src="https://cdn.pixabay.com/photo/2016/10/20/20/52/kitchen-1756631_960_720.jpg" alt="Utensil Image 4"></div>
+  </div>
+</div>
     <!-- All Kitchen Utensils Cards -->
-    <div class="container container50">
+    <div id="cont50" class="container container50">
         <div class="row row50">
             <div class="col col50">
                 <center>
